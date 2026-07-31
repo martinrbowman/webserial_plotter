@@ -1,12 +1,16 @@
 # Serial Plotter (Web)
 
+**Live: https://martinrbowman.github.io/webserial_plotter/**
+
 Browser-based serial data plotter. Uses the [Web Serial API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Serial_API) — no install, runs from static files. Chart rendering via [Chart.js](https://www.chartjs.org/).
 
 Requires a Chromium browser (Chrome/Edge) or Firefox 151+ desktop. Not supported in Safari, or in Firefox on Android/iOS.
 
 ## Running
 
-Serve the folder over HTTP (Web Serial requires a secure context — `file://` won't work):
+Double-click `index.html` to open it directly in the browser — Chrome/Edge treat `file://` as a secure context, so Web Serial works with no server.
+
+Alternatively, serve the folder over HTTP:
 
 ```bash
 cd webapp
