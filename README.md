@@ -1,5 +1,7 @@
 # Serial Plotter (Web)
 
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support-yellow?logo=buy-me-a-coffee)](https://buymeacoffee.com/redwolfelectronics)
+
 **Live: https://martinrbowman.github.io/webserial_plotter/**
 
 Browser-based serial data plotter. Uses the [Web Serial API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Serial_API) — no install, runs from static files. Chart rendering via [Chart.js](https://www.chartjs.org/).
